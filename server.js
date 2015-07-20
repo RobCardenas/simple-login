@@ -2,7 +2,7 @@
 var express = require('express'),
 app = express(),
 ejs = require('ejs'),
-session = require('express-session');
+session = require('express-session'),
 bodyParser = require('body-parser');
 
 // set view engine for server-side templating
